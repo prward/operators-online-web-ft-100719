@@ -1,6 +1,8 @@
 def unsafe?(speed)
-speed < 60 ? 
-end
+if speed > 60
+  "unsafe"
+else 
+  "safe"
 
 
 
